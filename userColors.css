@@ -1,9 +1,9 @@
 :root {
 /*Dark*/
-	--dark_color1: #1c1b21;
-	--dark_color2: #33313c;
-	--dark_color3: #4b4757;
-	--dark_color4: #635d73;
+	--dark_color1: #212121;
+	--dark_color2: #282828;
+	--dark_color3: #323232;
+	--dark_color4: #353535;
 
 	--word_color1: #9059ff;
 	--word_color2: #adabb9;
