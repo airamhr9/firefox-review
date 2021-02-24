@@ -2,9 +2,9 @@
 
 ## Changes in the fork 
 
-I've changed the colours to dark tones of gray to match better Material Design oriented desktop themes or anyone who uses this tones, and increased the size of the window controls to integrate it better with the Deepin Desktop
+I've changed the colours to dark shades of gray to match better any Material Design or gray oriented themes, and increased the size of the window controls to integrate it better with the Deepin Desktop
 
-
+------------
 
 
 
