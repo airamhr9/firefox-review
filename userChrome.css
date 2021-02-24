@@ -82,75 +82,7 @@ toolbarbutton.bookmark-item {
 
 /*================== CAPTION BUTTONS ==================*/
 
-.titlebar-buttonbox {
-    position: relative;
-    margin-right: 0px;
-	margin-top: -10px !important;
-}
-.titlebar-button {
-	transition: all 0.3s ease !important;
-	padding: 8px 10px !important;
-	background: none !important;
-}
-.titlebar-button.titlebar-close {
-	padding-right: 26px !important;
-}
-.titlebar-button > .toolbarbutton-icon {
-	transition: all 0.3s ease !important;
-	list-style-image: none;
-	border-radius: 15px;
-	width: 14px !important;
-	height: 14px !important;
-}
 
-@media (min-resolution: 1.20dppx) and (max-resolution: 1.45dppx) {
-.titlebar-button > .toolbarbutton-icon {
-	width: 14px !important;
-	height: 14px !important;
-}
-}
-
-@media (min-resolution: 1.45dppx) and (max-resolution: 1.70dppx) {
-.titlebar-button > .toolbarbutton-icon {
-	width: 14px !important;
-	height: 14px !important;
-}
-}
-
-@media (min-resolution: 1.70dppx) and (max-resolution: 1.95dppx) {
-.titlebar-button > .toolbarbutton-icon {
-	width: 14px !important;
-	height: 14px !important;
-}
-}
-
-.titlebar-button:hover > .toolbarbutton-icon {
-	background: none !important;
-}
-.titlebar-button.titlebar-min > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-267,-272)"><g id="min_btn"><rect x="269" y="278" width="10" height="2" style="fill:rgb(144,145,146);"/></g></g></svg>');
-}
-.titlebar-button.titlebar-max > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g id="max_btn"><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="3" x2="12" y1="3" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12" x2="3" y1="2" x1="3" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="2" x2="11" y1="12" x1="11" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="11" x2="12" y1="11" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/></g></g></svg>');
-}
-.titlebar-button.titlebar-restore > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g id="max_btn"><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="3" x2="12" y1="3" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12" x2="3" y1="2" x1="3" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="2" x2="11" y1="12" x1="11" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="11" x2="12" y1="11" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(144,145,146)" fill="none"/></g></g></svg>');
-}
-.titlebar-button.titlebar-close > .toolbarbutton-icon {
-    list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-632,-255)"><path id="close_btn" d="M638.979,260.586L643.221,256.343L644.635,257.757L640.393,262L644.635,266.243L643.221,267.657L638.979,263.414L634.736,267.657L633.322,266.243L637.564,262L633.322,257.757L634.736,256.343L638.979,260.586Z" style="fill:rgb(144,145,146);"/></g></svg>');
-}
-.titlebar-button.titlebar-min:hover > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-267,-272)"><g id="min_btn"><rect x="269" y="278" width="10" height="2" style="fill:rgb(235,203,139);"/></g></g></svg>');
-}
-.titlebar-button.titlebar-max:hover > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g id="max_btn"><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="3" x2="12" y1="3" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12" x2="3" y1="2" x1="3" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="2" x2="11" y1="12" x1="11" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="11" x2="12" y1="11" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/></g></g></svg>');
-}
-.titlebar-button.titlebar-restore:hover > .toolbarbutton-icon {
-	list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g><g id="max_btn"><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="3" x2="12" y1="3" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12" x2="3" y1="2" x1="3" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="2" x2="11" y1="12" x1="11" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/><line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="11" x2="12" y1="11" x1="2" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="rgb(163,200,140)" fill="none"/></g></g></svg>');
-}
-.titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
-    list-style-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(1,0,0,1,-632,-255)"><path id="close_btn" d="M638.979,260.586L643.221,256.343L644.635,257.757L640.393,262L644.635,266.243L643.221,267.657L638.979,263.414L634.736,267.657L633.322,266.243L637.564,262L633.322,257.757L634.736,256.343L638.979,260.586Z" style="fill:rgb(191,97,106);"/></g></svg>');
-}
 
 /*================== NEW TAB BUTTON ==================*/
 toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active) > .toolbarbutton-icon,
@@ -165,6 +97,35 @@ toolbar #tabs-newtab-button:not([disabled="true"]):-moz-any([open], [checked], :
 toolbar #tabs-newtab-button:not([disabled="true"]):not([checked]):not([open]):not(:active):hover > .toolbarbutton-icon {
 	background-color: var(--base_color3) !important;
 }
+
+
+
+
+.titlebar-button {
+    width: 46px;
+    height: 46px;
+}
+
+.titlebar-spacer {
+    opacity: 0 !important;
+}
+
+#tabbrowser-tabs .tabbrowser-tab[first-visible-tab="true"] {
+    border-left: 1px solid rgba(0,0,0,0.3) !important;
+}
+
+#tabbrowser-tabs .tabbrowser-tab:not([selected])[first-visible-tab="true"] {
+    border-left: 1px solid rgba(0,0,0,0.0) !important;
+}
+
+:root[sizemode="maximized"] .titlebar-button {
+    width: 46px;
+    height: 32px;
+    margin-bottom: 1px !important;
+}
+
+
+
 
 
 /*================== NAV BAR ==================*/
