@@ -1,4 +1,14 @@
-# Firefox Review
+# Firefox Review Gray Fork
+
+## Changes in the fork 
+
+I've changed the colours to dark tones of gray to match better Material Design oriented desktop themes or anyone who uses this tones, and increased the size of the window controls to integrate it better with the Deepin Desktop
+
+
+
+
+
+# Original ReadMe
 
 Firefox Review is a css redesign of the browser, changing the look of Firefox to match the color scheme and design language of [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix&hl=en_US), a newer mobile version of Firefox being developed. With v1.1, both light and dark themes are available, and with v1.1.4, the right click menu, and other menus, have been better realized.
 
