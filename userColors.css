@@ -5,14 +5,14 @@
 	--dark_color3: #323232;
 	--dark_color4: #353535;
 
-	--word_color1: #9059ff;
+	--word_color1: #1565c0;
 	--word_color2: #adabb9;
 	--word_color3: #e1e0e6;
 /*Light*/
-	--light_color1: #e1e0e6;
+	--light_color1: #121212;
 	--light_color2: #adabb9;
 	--light_color3: #9795a3;
-	--light_color4: #878492;
+	--light_color4: #878493;
 
 	--other_color1: #332e56;
 	--other_color2: #4b4757;
@@ -107,3 +107,4 @@
 	--orbit_color: #B39FE3;
 }
 }
+
